@@ -2,7 +2,7 @@
 from rest_framework.renderers import BaseRenderer
 
 
-class CustomPDFRenderer(BaseRenderer):
+class PDFRenderer(BaseRenderer):
     media_type = 'application/pdf'
     format = 'pdf'
     charset = None
