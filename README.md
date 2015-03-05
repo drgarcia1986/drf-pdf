@@ -1,5 +1,5 @@
-# DRF-PDF-Renderer
-A simple PDF renderer for Django Rest Framework
+# DRF-PDF
+A simple PDF utils for Django Rest Framework
 
 ## Example
 
@@ -9,7 +9,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from drf_pdf_renderer import PDFRenderer
+from drf_pdf.renderer import PDFRenderer
 
 from my_pdf_package import PDFGenerator
 
@@ -42,8 +42,8 @@ from rest_framework.response import Response
 from rest_frameworl.renderers import JSONRenderer
 from rest_framework.views import APIView
 
-from drf_pdf_response import PDFResponse
-from drf_pdf_renderer import PDFRenderer
+from drf_pdf.response import PDFResponse
+from drf_pdf.renderer import PDFRenderer
 
 from my_pdf_package import get_pdf
 
