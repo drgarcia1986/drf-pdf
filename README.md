@@ -8,7 +8,9 @@ A simple PDF renderer for Django Rest Framework
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
+
 from drf_pdf_renderer import PDFRenderer
+
 from my_pdf_package import PDFGenerator
 
 
@@ -39,7 +41,10 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_frameworl.renderers import JSONRenderer
 from rest_framework.views import APIView
+
+from drf_pdf_response import PDFResponse
 from drf_pdf_renderer import PDFRenderer
+
 from my_pdf_package import get_pdf
 
 
