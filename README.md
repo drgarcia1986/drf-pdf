@@ -4,6 +4,12 @@
 
 A simple PDF utils for Django Rest Framework
 
+## Install
+
+```
+pip install drf-pdf
+```
+
 ## Example
 
 ```python
