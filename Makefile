@@ -4,7 +4,7 @@ clean:
 	@find . -name "__pycache__" -type d | xargs rm -rf
 
 test: clean
-	py.test
+	py.test -x --cov-config .coveragerc --cov-report html --cov-report xml --cov-report term --cov drf_pdf/ tests/
 
 requirements: clean
 	pip install -r requirements-dev.txt
