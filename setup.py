@@ -45,7 +45,7 @@ setup(
     description='A simple PDF renderer for Django Rest Framework',
     long_description=read('README.md'),
     packages=get_packages('drf_pdf'),
-    pasckage_data=get_package_data('drf_pdf'),
+    packages_data=get_package_data('drf_pdf'),
     classifiers=[
         'Framework :: Django',
         'Intended Audience :: Developers',
