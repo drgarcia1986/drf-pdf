@@ -1,0 +1,2 @@
+bumpversion==0.5.1
+tox==1.9.0

@@ -1,0 +1,23 @@
+language: python
+
+sudo: false
+
+env:
+  - TOX_ENV=py27-django15-drf2
+  - TOX_ENV=py27-django15-drf3
+  - TOX_ENV=py27-django16-drf2
+  - TOX_ENV=py27-django16-drf3
+  - TOX_ENV=py27-django17-drf2
+  - TOX_ENV=py27-django17-drf3
+  - TOX_ENV=py34-django15-drf2
+  - TOX_ENV=py34-django15-drf3
+  - TOX_ENV=py34-django16-drf2
+  - TOX_ENV=py34-django16-drf3
+  - TOX_ENV=py34-django17-drf2
+  - TOX_ENV=py34-django17-drf3
+
+install:
+  - make requirements
+
+script:
+    - tox -e $TOX_ENV
