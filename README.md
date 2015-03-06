@@ -1,4 +1,6 @@
 # DRF-PDF
+[![Build Status](https://travis-ci.org/drgarcia1986/drf-pdf.svg?branch=master)](https://travis-ci.org/drgarcia1986/drf-pdf)
+
 A simple PDF utils for Django Rest Framework
 
 ## Example
