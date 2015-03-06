@@ -11,7 +11,7 @@ def read(fname):
 
 setup(
     name='drf-pdf',
-    version='0.0.0',
+    version='0.1.0',
     install_requires=['djangorestframework>=2.4'],
     author='Diego Garcia',
     author_email='drgarcia1986@gmail.com',
