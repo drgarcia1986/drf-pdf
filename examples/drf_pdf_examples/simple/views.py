@@ -24,6 +24,6 @@ class SimpleExample(APIView):
 
         return PDFResponse(
             pdf.getvalue(),
-            file_name='example.pdf',
+            file_name='example',
             status=status.HTTP_200_OK
         )
