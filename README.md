@@ -1,5 +1,6 @@
 # DRF-PDF
 [![Build Status](https://travis-ci.org/drgarcia1986/drf-pdf.svg?branch=master)](https://travis-ci.org/drgarcia1986/drf-pdf)
+[![Coverage Status](https://coveralls.io/repos/drgarcia1986/drf-pdf/badge.svg)](https://coveralls.io/r/drgarcia1986/drf-pdf)
 
 A simple PDF utils for Django Rest Framework
 
@@ -41,7 +42,7 @@ class PDFHandler(APIView):
 # coding: utf - 8
 from rest_framework import status
 from rest_framework.response import Response
-from rest_frameworl.renderers import JSONRenderer
+from rest_framework.renderers import JSONRenderer
 from rest_framework.views import APIView
 
 from drf_pdf.response import PDFResponse
