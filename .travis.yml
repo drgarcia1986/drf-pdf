@@ -19,5 +19,11 @@ env:
 install:
   - make requirements
 
+before_script:
+  - pip install python-coveralls
+
 script:
     - tox -e $TOX_ENV
+
+after_success:
+  - coveralls
