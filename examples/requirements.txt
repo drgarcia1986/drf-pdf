@@ -1,0 +1,11 @@
+Django==1.7.5
+Pillow==2.7.0
+argparse==1.2.1
+bumpversion==0.5.1
+djangorestframework==3.0.5
+drf-pdf==0.1.0
+py==1.4.26
+reportlab==3.1.44
+tox==1.9.0
+virtualenv==12.0.7
+wsgiref==0.1.2
