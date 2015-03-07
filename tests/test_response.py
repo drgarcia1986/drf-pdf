@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from drf_pdf import response
+import codecs
 
 
 class TestResponse(object):
@@ -7,7 +8,7 @@ class TestResponse(object):
 
     def test_response(self, pdf_file_sample):
 
-        with open(pdf_file_sample, 'r') as f:
+        with codecs.open(pdf_file_sample, 'r', 'ISO-8859-2') as f:
             file_data = f.read()
             ret = response.PDFResponse(
                 file_data,
