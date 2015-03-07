@@ -71,7 +71,7 @@ class PDFHandler(APIView):
 
         return PDFResponse(
             pdf=pdf,
-			file_name=pdf_id
+			file_name=pdf_id,
             status=status.HTTP_200_OK
         )
 ```
