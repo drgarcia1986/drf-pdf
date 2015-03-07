@@ -1,6 +1,7 @@
 # DRF-PDF
 [![Build Status](https://travis-ci.org/drgarcia1986/drf-pdf.svg?branch=master)](https://travis-ci.org/drgarcia1986/drf-pdf)
 [![Coverage Status](https://coveralls.io/repos/drgarcia1986/drf-pdf/badge.svg)](https://coveralls.io/r/drgarcia1986/drf-pdf)
+[![Code Health](https://landscape.io/github/drgarcia1986/drf-pdf/master/landscape.svg?style=plastic)](https://landscape.io/github/drgarcia1986/drf-pdf/master)
 
 A simple PDF utils for Django Rest Framework
 
