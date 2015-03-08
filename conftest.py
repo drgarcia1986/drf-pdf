@@ -4,6 +4,8 @@ import pytest
 
 
 def pytest_configure():
+    """ pytest setup """
+
     import django
     from django.conf import settings
 
@@ -35,6 +37,8 @@ def pytest_configure():
 
 @pytest.fixture
 def pdf_file_sample():
+    """ pytest fixture to get sample pdf file and run tests """
+
     return os.path.join(
         os.path.dirname(os.path.realpath(__file__)),
         'tests',
