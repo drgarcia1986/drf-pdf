@@ -4,6 +4,9 @@ from setuptools import setup
 
 
 def read(fname):
+    """
+    Return file content
+    """
     return open(
         os.path.join(
             os.path.dirname(__file__), fname)
@@ -51,7 +54,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
     ]
 )
