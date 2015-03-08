@@ -1,2 +1,8 @@
 bumpversion==0.5.1
 tox==1.9.0
+pytest==2.6.4
+pytest-cov==1.8.1
+ipdb==0.8
+git+https://github.com/mverteuil/pytest-ipdb.git
+djangorestframework==3.0.5
+Django==1.7.5

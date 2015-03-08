@@ -6,6 +6,9 @@ clean:
 test: clean
 	py.test -x --cov-config .coveragerc --cov-report html --cov-report xml --cov-report term --cov drf_pdf/ tests/
 
+test-debug: clean
+	py.test -x --ipdb drf_pdf/ tests/
+
 requirements: clean
 	pip install -r requirements-dev.txt
 
