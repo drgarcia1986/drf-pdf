@@ -3,3 +3,5 @@ test-warnings: no
 strictness: veryhigh
 max-line-length: 120
 autodetect: yes
+ignore-paths:
+  - examples
