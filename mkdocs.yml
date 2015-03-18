@@ -1,0 +1,8 @@
+site_name: DRF PDF
+site_description: Simple PDF utils for Django Rest Framework
+repo_url: https://github.com/drgarcia1986/drf-pdf
+
+pages:
+    - ['index.md', 'Home']
+    - ['api-guide/renderers.md', 'API Guide', 'Renderers']
+    - ['api-guide/responses.md', 'API Guide', 'Responses']
