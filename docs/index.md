@@ -1,7 +1,7 @@
 Welcome to DRF PDF
 ==================
 
-DRF PDF is a set of simple PDF utils for Django Rest Framework
+DRF PDF is a set of simple PDF utils for [Django Rest Framework](http://www.django-rest-framework.org/)
 
 
 Requirements
@@ -94,3 +94,9 @@ class PDFHandler(APIView):
             status=status.HTTP_200_OK
         )
 ```
+
+API Guide
+---------
+
+* [Renderers](api-guide/renderers.md)
+* [Response](api-guide/responses.md)
