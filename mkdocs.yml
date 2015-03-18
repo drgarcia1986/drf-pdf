@@ -1,1 +1,3 @@
 site_name: DRF PDF
+site_description: Simple PDF utils for Django Rest Framework
+repo_url: https://github.com/drgarcia1986/drf-pdf
