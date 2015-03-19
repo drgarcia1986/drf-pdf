@@ -5,6 +5,8 @@
 
 A simple PDF utils for Django Rest Framework
 
+Documentation: http://drf-pdf.readthedocs.org/en/latest/
+
 ## Install
 
 ```
