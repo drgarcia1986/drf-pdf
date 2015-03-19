@@ -3,9 +3,8 @@ from rest_framework.renderers import BaseRenderer
 
 
 class PDFRenderer(BaseRenderer):
-    """
-    Renderer for PDF binary content
-    """
+
+    """ Renderer for PDF binary content. """
 
     media_type = 'application/pdf'
     format = 'pdf'

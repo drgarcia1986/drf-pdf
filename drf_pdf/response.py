@@ -3,8 +3,9 @@ from rest_framework.response import Response
 
 
 class PDFResponse(Response):
+
     """
-    DRF Response to render data as a PDF File
+    DRF Response to render data as a PDF File.
 
     kwargs:
         - pdf (byte array). The PDF file content.
