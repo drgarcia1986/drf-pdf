@@ -2,7 +2,7 @@
 import codecs
 import os
 from rest_framework.response import Response
-from exceptions import PDFFileNotFound
+from .exceptions import PDFFileNotFound
 
 
 class PDFResponse(Response):
