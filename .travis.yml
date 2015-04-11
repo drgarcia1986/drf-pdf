@@ -12,6 +12,9 @@ env:
   - TOX_ENV=py27-django17-drf2
   - TOX_ENV=py27-django17-drf3
   - TOX_ENV=py27-django17-drf31
+  - TOX_ENV=py27-django18-drf2
+  - TOX_ENV=py27-django18-drf3
+  - TOX_ENV=py27-django18-drf31
   - TOX_ENV=py34-django15-drf2
   - TOX_ENV=py34-django15-drf3
   - TOX_ENV=py34-django15-drf31
@@ -21,6 +24,9 @@ env:
   - TOX_ENV=py34-django17-drf2
   - TOX_ENV=py34-django17-drf3
   - TOX_ENV=py34-django17-drf31
+  - TOX_ENV=py34-django18-drf2
+  - TOX_ENV=py34-django18-drf3
+  - TOX_ENV=py34-django18-drf31
 
 install:
   - make requirements
