@@ -22,7 +22,7 @@ Arguments:
 * `file_name`: The default downloaded file name
 
 Another option is _DRF PDF_ `PDFFileResponse`.
-Different from `PDFResponse`, `PDFFileResponse` waiting for the path of pdf file and loads the pdf content from file system.
+Different from `PDFResponse`, `PDFFileResponse` accepts the path of a pdf file and loads the pdf content from file system.
 
 Example:
 ```python
