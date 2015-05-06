@@ -21,4 +21,22 @@ Arguments:
 
 * `file_name`: The default downloaded file name
 
-You can also include _REST Framework's_ [Response arguments](http://www.django-rest-framework.org/api-guide/responses/#response).
+Another option is _DRF PDF_ `PDFFileResponse`.
+Different from `PDFResponse`, `PDFFileResponse` accepts the path of a pdf file and loads the pdf content from file system.
+
+Example:
+```python
+from rest_framework import status
+from drf_pdf.response import PDFFileResponse
+
+response = PDFFileResponse(
+	file_path='/path/to/file.pdf',
+	status=status.HTTP_200_OK
+)
+```
+
+Arguments:
+
+* `file_path`: The PDF file path (to load file from file system).
+
+You can also include _REST Framework's_ [Response arguments](http://www.django-rest-framework.org/api-guide/responses/#response) on both responses.
