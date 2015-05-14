@@ -5,3 +5,10 @@ drf-pdf==0.1.0
 py==1.4.26
 reportlab==3.1.44
 wsgiref==0.1.2
+WeasyPrint==0.23
+html5lib==0.99999
+tinycss==0.3
+cssselect==0.9.1
+lxml==3.4.4
+cffi==0.9.2
+cairocffi==0.6

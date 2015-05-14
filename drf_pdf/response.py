@@ -1,8 +1,18 @@
 # encoding: utf-8
 import codecs
 import os
+import sys
+
+from django.template.loader import render_to_string
 from rest_framework.response import Response
+from weasyprint import HTML
+
 from .exceptions import PDFFileNotFound
+
+if sys.version_info < (3, 4):
+    from cStringIO import StringIO
+else:
+    from io import StringIO
 
 
 class PDFResponse(Response):
@@ -58,3 +68,30 @@ class PDFFileResponse(PDFResponse):
         with codecs.open(file_path, 'r', 'ISO-8859-2') as f:
             file_data = f.read()
         return file_data
+
+
+class PDFTemplateResponse(PDFResponse):
+
+    """
+    DRF Response to render Template as a PDF File.
+
+    kwargs:
+        - file_name (string). The default downloaded file name.
+        - template. Regular Django template name.
+        - context. Template context
+    """
+
+    def __init__(
+        self, file_name, template_name, context=None, *args, **kwargs
+    ):
+        template_string = render_to_string(template_name, context)
+
+        pdf = StringIO()
+        HTML(string=template_string).write_pdf(pdf)
+
+        super(PDFTemplateResponse, self).__init__(
+            pdf=pdf.getvalue(),
+            file_name=file_name,
+            *args,
+            **kwargs
+        )

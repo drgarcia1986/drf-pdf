@@ -56,3 +56,6 @@ target/
 # sqlite
 *.db
 *.sqlite3
+
+# virtualenv
+venv*
