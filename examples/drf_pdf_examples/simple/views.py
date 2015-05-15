@@ -1,5 +1,5 @@
 # coding: utf-8
-from StringIO import StringIO
+from cStringIO import StringIO
 
 from rest_framework import status
 from rest_framework.views import APIView
