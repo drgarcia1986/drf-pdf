@@ -19,7 +19,10 @@ INSTALLED_APPS = (
     # 'django.contrib.staticfiles',
 
     'rest_framework',
-    'drf_pdf'
+    'drf_pdf',
+
+    'simple',
+    'from_template'
 )
 
 MIDDLEWARE_CLASSES = (

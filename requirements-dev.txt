@@ -1,3 +1,4 @@
+-r requirements.txt
 bumpversion==0.5.1
 tox==1.9.0
 pytest==2.6.4
