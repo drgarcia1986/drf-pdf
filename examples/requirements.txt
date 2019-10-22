@@ -1,5 +1,5 @@
 Django==1.8
-Pillow==2.7.0
+Pillow==6.2.0
 djangorestframework==3.0.5
 drf-pdf==0.1.0
 py==1.4.26
