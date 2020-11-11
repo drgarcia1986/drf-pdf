@@ -8,7 +8,7 @@ class PDFRenderer(BaseRenderer):
 
     media_type = 'application/pdf'
     format = 'pdf'
-    charset = None
+    charset = 'ISO-8859-2'
     render_style = 'binary'
 
     def render(self, data, media_type=None, renderer_context=None):
