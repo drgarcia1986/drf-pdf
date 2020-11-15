@@ -37,7 +37,7 @@ def get_package_data(package):
 
 setup(
     name='drf-pdf',
-    version='0.2.0',
+    version='0.2.1',
     install_requires=['djangorestframework>=2.4'],
     url='https://github.com/drgarcia1986/drf-pdf',
     author='Diego Garcia',
