@@ -1,6 +1,6 @@
 Django==1.8
 Pillow==2.7.0
-djangorestframework==3.0.5
+djangorestframework==3.11.2
 drf-pdf==0.1.0
 py==1.4.26
 reportlab==3.1.44
