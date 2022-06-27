@@ -3,5 +3,5 @@ Pillow==2.7.0
 djangorestframework==3.0.5
 drf-pdf==0.1.0
 py==1.4.26
-reportlab==3.1.44
+reportlab==3.5.55
 wsgiref==0.1.2
